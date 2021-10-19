@@ -36,6 +36,14 @@ namespace NotificationHubWebAPI.Controllers
             installation.InstallationId = id;
             installation.PushChannel = deviceUpdate.Handle;
             installation.Tags = deviceUpdate.Tags;
+            // ESEMPI DI TAG: ->
+            //  InstallationID: InstallationId
+            //  User: giliguor@microsoft.com 
+            //  IsMainDevice: true
+            //  EmployeeType: PostOffice
+            //  Location:Italy
+            //  IsMobile: true
+
 
             switch (deviceUpdate.Platform)
             {
@@ -50,6 +58,8 @@ namespace NotificationHubWebAPI.Controllers
                     break;
                 case "fcm":
                     installation.Platform = NotificationPlatform.Fcm;
+                    // ESEMPIO PER IMPOSTARE I NOTIFICATION TEMPLATE:
+                    //installation.Templates.Add("defaultTemplate", new InstallationTemplate { Body = "{ \"data\" : {\"message\":\"$(message)\"}}" });
                     break;
                 default:
                     return BadRequest();
@@ -72,6 +82,6 @@ namespace NotificationHubWebAPI.Controllers
             return Ok();
         }
 
- 
+
     }
 }
