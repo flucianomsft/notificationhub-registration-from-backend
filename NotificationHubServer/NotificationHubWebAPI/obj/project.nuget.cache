@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "nKxKIa5Q5gCBBAS49RcucL/pzeTeSqqOnmdqtwyNqO1oO3LmhiJkI4rjIfRQyVBClxfAf0EJ4ymwjjQK5vXS8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\docker\\source\\repos\\NotificationHubWebAPI\\NotificationHubWebAPI\\NotificationHubWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\docker\\.nuget\\packages\\microsoft.azure.notificationhubs\\4.1.0\\microsoft.azure.notificationhubs.4.1.0.nupkg.sha512",
+    "C:\\Users\\docker\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.8\\microsoft.extensions.caching.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\docker\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.8\\microsoft.extensions.caching.memory.3.1.8.nupkg.sha512",
+    "C:\\Users\\docker\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\docker\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\docker\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\docker\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\docker\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
