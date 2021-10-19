@@ -44,19 +44,19 @@ public class MainActivity extends AppCompatActivity {
                         String msg="The received token is"+ FCM_token;
                         Log.d(TAG, msg);
                         Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
-                        RegisterClient(FCM_token);
+                        RegisterClient(FCM_token,"DemoUser@poste.it");
                     }
 
                 });
     }
 
-    public void RegisterClient(String token) {
+    public void RegisterClient(String token,String username) {
         new AsyncTask<Object, Object, Object>() {
             @Override
             protected Object doInBackground(Object... params) {
                 try {
                     HashSet<String>  tags= new HashSet<String>();
-                    tags.add("username:gianluigi");
+                    tags.add("username:"+ username);
                    registerClient.register(FCM_token,tags);
                 } catch (Exception e) {
                     return e;
